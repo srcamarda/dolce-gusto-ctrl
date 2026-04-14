@@ -189,7 +189,7 @@ void setup() {
   pinMode(PIN_FLUXO, INPUT_PULLUP);
   attachInterrupt(digitalPinToInterrupt(PIN_FLUXO), ISR_fluxo, RISING);
 
-  Serial.println(F("=== Dolce Gusto Ctrl v1.3 ==="));
+  Serial.println(F("=== Dolce Gusto Ctrl v1.5 ==="));
   print_nivel();
 
   leds(true, false); // verde = pronto
